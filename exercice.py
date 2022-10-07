@@ -6,7 +6,11 @@ from matplotlib.colors import cnames
 
 def list_to_dict(some_list: list) -> dict:
     # TODO: Transformer la liste en dictionnaire, les éléments de la liste deviennent les clés et leur index deviennent les valeurs
-
+    ma_liste = ['a', 'b', 'c', 'd', 'e']
+    dictionnaire = {}
+    for i in range(len(ma_liste)):
+        dictionnaire[ma_liste[i]] = i
+    print(dictionnaire)
     return {}
 
 
